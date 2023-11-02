@@ -15,6 +15,18 @@ html {
   gap: 15px;
 }
 
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+	.sidebar {
+		grid-row: 1 / 2;
+		grid-column: 1 / 2;
+	}
+
+	.header {
+		grid-column: 2 / 3;
+	}
+}
+
 .container div {
   padding: 15px;
   font-size: 32px;
